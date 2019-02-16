@@ -493,12 +493,20 @@ mark,
   height: auto;
 }
 
+.portfolio_right {
+  padding: 1rem;
+  background-color: RGBA(255,255,255,.75);
+  max-width: 500px%;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: auto;
+}
+
 .portfolio {
   padding: 1rem;
   background-color: RGBA(255,255,255,.75);
   max-width: 100%;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 15px;
   height: auto;
 }
 
