@@ -473,7 +473,6 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
-  white-space: nowrap;
 }
 
 .img-thumbnail {
