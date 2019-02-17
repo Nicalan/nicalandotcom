@@ -495,12 +495,14 @@ mark,
 
 .portfolio {
   padding: 1rem;
-  background-color: RGBA(255,255,255,.75);
+  background: RGBA(255,255,255,.50);
   max-width: 100%;
   margin-left: 15px;
   margin-right: 15px;
   height: auto;
+  box-shadow: 5px 5px 20px 2px black
 }
+
 
 
 .figure {
@@ -572,9 +574,10 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #556873;
+    background: #556873;
     padding-top: 15px;
 }
+
 
 @media (min-width: 576px) {
   .container {
@@ -10489,7 +10492,8 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #556873;
+	background-image: url("Assets/Images/background_portfolio.png") !important;
+	background-attachment: scroll;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
