@@ -473,6 +473,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  box-shadow: 2px 2px 10px 2px grey;
 }
 
 .img-thumbnail {
@@ -10137,7 +10138,7 @@ figure {
 
 img {
     vertical-align: middle;
-    padding: 15px;
+    padding: 0;
     border-style: none;
 }
 
@@ -14308,49 +14309,8 @@ input[type="button"].btn-block {
   .navbar-expand-md .navbar-toggler {
     display: none;
   }
-}
 
-@media (max-width: 991.98px) {
-  .navbar-expand-lg > .container,
-  .navbar-expand-lg > .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
   }
-}
-
-@media (min-width: 992px) {
-  .navbar-expand-lg {
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-  .navbar-expand-lg .navbar-nav {
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute;
-  }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-  .navbar-expand-lg > .container,
-  .navbar-expand-lg > .container-fluid {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-  .navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-  }
-  .navbar-expand-lg .navbar-toggler {
-    display: none;
-  }
-}
 
 @media (max-width: 1199.98px) {
   .navbar-expand-xl > .container,
