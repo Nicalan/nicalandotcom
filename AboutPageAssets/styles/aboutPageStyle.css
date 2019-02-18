@@ -17,6 +17,7 @@ body {
 	padding-left: 2.275%;
 	padding-right: 2.275%;
 	padding-top:0.1%;
+	padding-bottom:0.1%;
 	background-color: RGBA(255,255,255,.75);
 }
 /* Header */
@@ -39,11 +40,11 @@ header .logoPlaceholder span {
 	line-height: 53px;
 }
 header .profilePhoto {
-	background-color: rgba(237,237,237,1.00);
 	width: 259px;
 	border-radius: 50%;
 	height: 259px;
 	clear: both;
+	margin: 15px;
 }
 header .profileHeader h1 {
 	font-family: 'Montserrat', sans-serif;
@@ -396,6 +397,11 @@ header .socialNetworkNavBar .socialNetworkNav {
 	width: 199px;
 	height: 48px;
 }
+	
+.rounded-circle {
+  border-radius: 50% !important;
+}
+	
 /* Footer */
 footer .footerDisclaimer {
 	float: left;
